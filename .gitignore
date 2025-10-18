@@ -13,10 +13,15 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Reports output
+# Reports output (exclude generated reports but keep sample charts for README)
 reports/*.pdf
 reports/*.pptx
-reports/*.png
+reports/netflix_summary_*.pptx
+# Keep the 4 sample PNG charts for README display
+!reports/overall_movies_vs_tv.png
+!reports/annual_additions_by_type.png
+!reports/top_genres.png
+!reports/top_countries.png
 
 # IDE
 .vscode/
