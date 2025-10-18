@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+pycountry
+country_converter
+streamlit
+python-pptx
+reportlab
