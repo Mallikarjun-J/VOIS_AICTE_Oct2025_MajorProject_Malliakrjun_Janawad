@@ -15,9 +15,20 @@ env/
 
 # Reports output (exclude generated reports but keep sample charts for README)
 reports/*.pdf
-reports/*.pptx
 reports/netflix_summary_*.pptx
-# Keep the 4 sample PNG charts for README display
+# Keep all 11 sample charts for README display
+!reports/chart1_*.png
+!reports/chart2_*.png
+!reports/chart3_*.png
+!reports/chart4_*.png
+!reports/chart5_*.png
+!reports/chart6_*.png
+!reports/chart7_*.png
+!reports/chart8_*.png
+!reports/chart9_*.png
+!reports/chart10_*.png
+!reports/chart11_*.png
+# Legacy charts (keep for backward compatibility)
 !reports/overall_movies_vs_tv.png
 !reports/annual_additions_by_type.png
 !reports/top_genres.png
